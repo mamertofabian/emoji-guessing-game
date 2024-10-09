@@ -94,6 +94,22 @@
   {/if}
 </div>
 
+<hr style="margin-top: 50px">
+
+<div class="video-container">
+  <h3>How this game was built</h3>
+  <p>Watch the video below to see a walkthrough of how this Emoji Guessing Game was created using <a href="https://bolt.new">bolt.new</a>:</p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/cSDWr2WdpqI"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+
 <style>
   .game-container {
     max-width: 600px;
@@ -120,5 +136,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .video-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  .video-container h3 {
+    margin-bottom: 0.5rem;
+  }
+  .video-container p {
+    margin-bottom: 1rem;
+  }
+  .video-container iframe {
+    max-width: 100%;
   }
 </style>
