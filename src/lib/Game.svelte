@@ -62,7 +62,7 @@
 <div class="game-container">
   {#if !gameStarted}
     <div class="start-screen">
-      <h2>Select a Category</h2>
+      <h4>Select a Category</h4>
       <select bind:value={selectedCategory} class="form-select mb-3">
         {#each categories as category}
           <option value={category}>{category}</option>
